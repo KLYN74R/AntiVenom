@@ -27,7 +27,7 @@ pnpm install
 
 echo -e "\e[42mLoad dependencies for KLY-EVM ...\e[49m"
 
-cd ~/KlyntarCore/KLY_VMs/kly_evm
+cd ~/KlyntarCore/KLY_VMs/kly-evm
 
 pnpm install
 
@@ -52,11 +52,11 @@ wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/genesis_si
 
 wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/time_update.js
 
-node type_update.js
+node time_update.js
 
 # Delete useless, non-json file
 
-rm type_update.js
+rm time_update.js
 
 
 # Load required configs

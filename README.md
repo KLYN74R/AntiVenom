@@ -25,7 +25,7 @@ docker run -dtp 7331:7331 --name klyntar_node klyntar/all_in_one:v3.0.0
 
 # Go into container
 
-docker exec -ti bash klyntar_node
+docker exec -ti klyntar_node bash
 
 # Chose the directory
 
@@ -37,6 +37,8 @@ cd ~
 
 ```bash
 git clone https://github.com/KLYN74R/AntiVenom.git
+
+cd AntiVenom
 ```
 
 2. Make build script executable
