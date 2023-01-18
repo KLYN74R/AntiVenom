@@ -33,99 +33,53 @@ cd ~
 
 ```
 
-1. Clone the <code>KlyntarCore</code> repository
+1. Clone this repository
 
 ```bash
-git clone https://github.com/KLYN74R/KlyntarCore.git
+git clone https://github.com/KLYN74R/AntiVenom.git
 ```
 
-2. Run a single command to fetch all the dependencies and run a build script
+2. Make build script executable
 
 ```bash
-pnpm run build
+chmod 700 build_single_node_testnet.sh
 ```
 
-3. Now you need to install dependencies to interact with hostchain
+3. Run the build script and take a rest
 
 ```bash
-
-cd ~/KlyntarCore/KLY_Hostchains/dev0
-
-pnpm install
-
+./build_single_node_testnet.sh
 ```
 
-4. Also, you need to install dependencies to use KLY-EVM
-
-```bash
-
-cd ~/KlyntarCore/KLY_VMs/kly_evm
-
-```
-
-5. Now everything is ready and you need to choose the directory for your symbiote
-
-```bash
-
-cd ~
-
-mkdir kly_testnet
-
-```
-
-6. Now, you need to add genesis and configs directories to this dir. For this, use the examples from this repository
-
-```bash
-
-cd kly_testnet
-
-mkdir CONFIGS GENESIS
-
-# Set genesis file
-cd GENESIS
-
-wget 
-```
-
-7. Hence the net starts with genesis and rely on timestamp, to avoid interaction with hostchain here, you need to get the current timestamp
-
-```bash
-
-node -e "console.log(new Date().getTime())"
-
-```
-
-8. Modify the genesis file and set the new timestamp
-
-```bash
-
-nano GENESIS/genesis.json
-
-```
-
-```json
-
-"CHECKPOINT_TIMESTAMP":1673995948674
-
-```
-
-9. Set the env variables
-
-
-```bash
-
-export KLY_MODE=test
-
-export SYMBIOTE_DIR=~/kly_testnet
-
-```
-
-10. Finally, run the node
-
+4.  Finally, you can run the node
 
 ```bash
 klyntar
 ```
+
+## What you have on this step
+
+1. Local testnet(symbiote) with a single validator
+2. Validator keypair is
+
+```json
+{
+    prv:"af837c459929895651315e878f4917c7622daeb522086ec95cfe64fed2496867",
+    pub:"7GPupbq1vtKUgaqVeHiDbEJcxS7sSjwPnbht4eRaDBAEJv8ZKHNCSu2Am3CuWnHjta"
+}
+```
+3. Hostchain defined as <code>kly-evm</code> - it was local runned ETH node(Geth client), but we can avoid using it in this setup
+4. Enabled KLY-EVM. The web3 EVM-compatible API available via <code>http://localhost:7331/kly_evm_rpc</code>
+
+</br>
+
+<div align="center">
+
+<b>NOTE: Insofar as we avoid moment interaction with hostchain - you should reset your node each day</b>
+
+</div>
+
+</br>
 
 ## Multi-node testnet
 
