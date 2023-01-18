@@ -73,9 +73,5 @@ wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/network.js
 
 wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/workflow.json
 
-export KLY_MODE=test
-
-export SYMBIOTE_DIR=~/kly_testnet
-
 
 echo -e "\e[42mEverything is ok - you can run your node\e[49m"

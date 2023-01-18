@@ -53,7 +53,17 @@ chmod 700 build_single_node_testnet.sh
 ./build_single_node_testnet.sh
 ```
 
-4.  Finally, you can run the node
+4. Set the env variables
+
+```bash
+
+export KLY_MODE=test
+
+export SYMBIOTE_DIR=~/kly_testnet
+
+```
+
+5.  Finally, you can run the node
 
 ```bash
 klyntar
