@@ -87,7 +87,7 @@ klyntar
 
 <div align="center">
 
-<b>NOTE: Insofar as we avoid moment interaction with hostchain - you should reset your node each day</b>
+<b>NOTE: Insofar as we avoid moment interaction with hostchain - you should reset your node each day. For this - delete the kly_testnet directory and run build script again</b>
 
 </div>
 
