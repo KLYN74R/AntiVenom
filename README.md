@@ -80,6 +80,8 @@ klyntar
     pub:"7GPupbq1vtKUgaqVeHiDbEJcxS7sSjwPnbht4eRaDBAEJv8ZKHNCSu2Am3CuWnHjta"
 }
 ```
+
+and the password to decrypt private key is <code>qwerty</code>
 3. Hostchain defined as <code>kly-evm</code> - it was local runned ETH node(Geth client), but we can avoid using it in this setup
 4. Enabled KLY-EVM. The web3 EVM-compatible API available via <code>http://localhost:7331/kly_evm_rpc</code>
 
