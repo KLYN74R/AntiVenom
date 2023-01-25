@@ -1,0 +1,19 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "bls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/bls12-381": "^1.4.0",
+    "base-58": "^0.0.1",
+    "blake3-wasm": "2.1.5",
+    "node-fetch": "^3.3.0"
+  }
+}
