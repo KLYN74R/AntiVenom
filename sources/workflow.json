@@ -218,7 +218,8 @@
             "GET_BLOCK_BY_RID":6000,
             "GET_SYNC_STATE":2,
             "GET_SYMBIOTE_INFO":5,
-            "GET_EVENT_RECEIPT":100
+            "GET_EVENT_RECEIPT":100,
+            "GET_SEARCH_RESULT":6000
         },
     
         "TRIGGERS":{
@@ -246,9 +247,11 @@
             "GET_BLOCK_BY_RID":1,
             "GET_SYNC_STATE":1,
             "GET_SYMBIOTE_INFO":1,
-            "GET_EVENT_RECEIPT":1
+            "GET_EVENT_RECEIPT":1,
+            "GET_SEARCH_RESULT":1
         },
 
+        
         "COMMITMENTS_POOL_LIMIT":100000,
         "FINALIZATION_PROOFS_POOL_LIMIT":100000,
         "SUPER_FINALIZATION_PROOFS_POOL_LIMIT":100000,
