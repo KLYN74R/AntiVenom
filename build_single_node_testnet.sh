@@ -12,6 +12,12 @@ git clone https://github.com/KLYN74R/KlyntarCore.git
 
 cd KlyntarCore
 
+# Switch the branch to version with binding to subchain(2nd level of sharding)
+
+git checkout bind_to_subchain_with_single_evm
+
+# Load dependencies & run build scripts
+
 pnpm run build
 
 # Now you need to install dependencies to interact with hostchain
@@ -48,9 +54,9 @@ mkdir CONFIGS GENESIS
 
 cd GENESIS
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/genesis_simplest.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/genesis_simplest.json
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/time_update.js
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/time_update.js
 
 node time_update.js
 
@@ -63,15 +69,15 @@ rm time_update.js
 
 cd ../CONFIGS
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/common.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/common.json
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/evm.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/evm.json
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/klyntar_vm.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/klyntar_vm.json
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/network.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/network.json
 
-wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/main/sources/workflow.json
+wget https://raw.githubusercontent.com/KLYN74R/AntiVenom/bind_to_subchain_with_single_evm/sources/workflow.json
 
 
 echo -e "\e[42mEverything is ok - you can run your node\e[49m"
