@@ -21,14 +21,83 @@
                 }
             },
             "waitingRoom":{},
-            "poolURL":"http://localhost:7331",
+            "poolURL":"http://localhost:7332",
             "wssPoolURL":"wss://localhost:9332"
         
-        }
+        },
 
+        "75XPnpDxrAtyjcwXaATfDhkYTGBoHuonDU1tfqFc6JcNPf5sgtcsvBRXaXZGuJ8USG":{
+        
+            "percentage":0.5,
+            "overStake":10000,
+            "whiteList":[],
+            "totalPower":55000,
+            "lackOfTotalPower":false,
+            "stopCheckpointID": -1,
+            "storedMetadata": {},
+            "isReserve":false,
+            "stakers":{
+                "75XPnpDxrAtyjcwXaATfDhkYTGBoHuonDU1tfqFc6JcNPf5sgtcsvBRXaXZGuJ8USG":{
+                    "kly":55000,
+                    "uno":0,
+                    "reward":0
+                }
+            },
+            "waitingRoom":{},
+            "poolURL":"http://localhost:7333",
+            "wssPoolURL":"wss://localhost:9333"
+        
+        },
+
+        "61TXxKDrBtb7bjpBym8zS9xRDoUQU6sW9aLvvqN9Bp9LVFiSxhRPd9Dwy3N3621RQ8":{
+        
+            "percentage":0.5,
+            "overStake":10000,
+            "whiteList":[],
+            "totalPower":55000,
+            "lackOfTotalPower":false,
+            "stopCheckpointID": -1,
+            "storedMetadata": {},
+            "isReserve":false,
+            "stakers":{
+                "61TXxKDrBtb7bjpBym8zS9xRDoUQU6sW9aLvvqN9Bp9LVFiSxhRPd9Dwy3N3621RQ8":{
+                    "kly":55000,
+                    "uno":0,
+                    "reward":0
+                }
+            },
+            "waitingRoom":{},
+            "poolURL":"http://localhost:7334",
+            "wssPoolURL":"wss://localhost:9334"
+        
+        },
+
+        "6YHBZxZfBPk8oDPARGT4ZM9ZUPksMUngyCBYw8Ec6ufWkR6jpnjQ9HAJRLcon76sE7":{
+        
+            "percentage":0.5,
+            "overStake":10000,
+            "whiteList":[],
+            "totalPower":55000,
+            "lackOfTotalPower":false,
+            "stopCheckpointID": -1,
+            "storedMetadata": {},
+            "isReserve":false,
+            "stakers":{
+                "6YHBZxZfBPk8oDPARGT4ZM9ZUPksMUngyCBYw8Ec6ufWkR6jpnjQ9HAJRLcon76sE7":{
+                    "kly":55000,
+                    "uno":0,
+                    "reward":0
+                }
+            },
+            "waitingRoom":{},
+            "poolURL":"http://localhost:7335",
+            "wssPoolURL":"wss://localhost:9335"
+        
+        }
+        
     },
 
-    "CHECKPOINT_TIMESTAMP":1677883330268,
+    "CHECKPOINT_TIMESTAMP":1687519994465,
     
     "STATE":{
 
@@ -59,6 +128,17 @@
             "rev_t":0,
             "subchain":"61TXxKDrBtb7bjpBym8zS9xRDoUQU6sW9aLvvqN9Bp9LVFiSxhRPd9Dwy3N3621RQ8"
         },
+
+        "6YHBZxZfBPk8oDPARGT4ZM9ZUPksMUngyCBYw8Ec6ufWkR6jpnjQ9HAJRLcon76sE7":{
+            
+            "type":"account",
+            "balance":200000,
+            "uno":0,
+            "nonce":0,
+            "rev_t":0,
+            "subchain":"6YHBZxZfBPk8oDPARGT4ZM9ZUPksMUngyCBYw8Ec6ufWkR6jpnjQ9HAJRLcon76sE7"
+        },
+        
 
         "0000000000000000000000000000000000000000000000000000000000000000":{
             

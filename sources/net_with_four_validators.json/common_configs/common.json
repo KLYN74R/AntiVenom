@@ -21,7 +21,7 @@
     
     "BITFORKS":["btc","ltc","doge","dash"],
 
-    "PLUGINS":[],
+    "PLUGINS":["dev_savitar/server.js"],
 
     "RUNNER":"dev_andromeda/runner.js"
 

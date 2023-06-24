@@ -1,7 +1,7 @@
 {
 
     "INTERFACE":"::",
-    "PORT":7331,
+    "PORT":7333,
 
     "PAYLOAD_SIZE":1000,
     "EXTENDED_PAYLOAD_SIZE":10000,
